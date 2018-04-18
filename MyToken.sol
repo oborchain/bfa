@@ -7,7 +7,7 @@ import "./ERC223ReceivingContract.sol";
 import "./SafeMath.sol";
 import "./Addresses.sol";
 
-contract MyToken is Token("MFT", "My Token", 0, 10000), ERC20, ERC223 {
+contract MyToken is Token("BFA", "BFA Token", 0, 1000000000), ERC20, ERC223 {
 
     using SafeMath for uint;
     using Addresses for address;
